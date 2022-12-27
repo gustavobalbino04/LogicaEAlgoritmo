@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>17 - Vetor</title>
+
+    <!-- Iniciando o JavaScript -->
+    <script>
+
+        //Vetor
+        var cores = ["Azul","Verde","Amarelo"]
+
+        //Monstrara na tela
+        document.write(cores)
+
+        //Exibir o vetor
+        console.log(cores)
+
+        //Exibir Informação de uma determinada posição 
+        document.write(cores[0])
+
+        //Exibir a quantidade de cores 
+        document.write(cores.length)
+
+        //Adicionar
+        cores.push("vermelho")
+
+        //Alterar
+        cores[1] = "Rosa"
+        
+        //Excluir
+        cores.splice(2, 1)
+        //Listando cores
+        for(var indice=0; indice<cores.length; indice++){
+            document.write((indice+1)+"ª"+cores[indice]+"<br>")
+        }
+        
+    </script>
+</head>
+<body> 
+</body>
+</html>
